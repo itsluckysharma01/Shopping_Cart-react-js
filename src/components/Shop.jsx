@@ -6,7 +6,7 @@ const Shop = () => {
   return (
     <section>
         {list.map((item) => {
-            return <Card key={item.id} item={item} />
+            return <Card item={item} key={item.id} />
             
         })}
     </section>
