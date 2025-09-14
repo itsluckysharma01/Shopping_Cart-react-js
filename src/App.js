@@ -1,12 +1,17 @@
-import React from 'react';
-import Navbar from './components/Navbar'
-import Shop from './components/Shop'
+import React, { useState } from "react";
+import Navbar from "./components/Navbar";
+import Shop from "./components/Shop";
 
 function App() {
+  const [cart, setCart] = useState([]);
+  const handleClick=(item)=> {
+    console.log(item);
+  }
+
   return (
     <div>
-      <Navbar />
-      <Shop />
+      <Navbar size={cart.length} />
+      <Shop handleClick={handleClick} />
     </div>
   );
 }
