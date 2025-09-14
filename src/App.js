@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from './components/Navbar'
+import Shop from './components/Shop'
 
 function App() {
   return (
     <div>
       <Navbar />
-      <h1>Shopping Cart</h1>
+      <Shop />
     </div>
   );
 }
