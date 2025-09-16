@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Shopping_Cart-react-js/static/css/main.dd3e5da0.css",
+    "main.js": "/Shopping_Cart-react-js/static/js/main.010ddde6.js",
+    "static/media/fa-solid-900.woff2": "/Shopping_Cart-react-js/static/media/fa-solid-900.0ae4e6254fc19607c79e.woff2",
+    "static/media/fa-brands-400.woff2": "/Shopping_Cart-react-js/static/media/fa-brands-400.e7461d69dbbff1310a5c.woff2",
+    "static/media/fa-regular-400.woff2": "/Shopping_Cart-react-js/static/media/fa-regular-400.1f38a564cd9eae27ebc3.woff2",
+    "static/media/fa-v4compatibility.woff2": "/Shopping_Cart-react-js/static/media/fa-v4compatibility.661bd6b7245d5205d3e1.woff2",
+    "index.html": "/Shopping_Cart-react-js/index.html",
+    "main.dd3e5da0.css.map": "/Shopping_Cart-react-js/static/css/main.dd3e5da0.css.map",
+    "main.010ddde6.js.map": "/Shopping_Cart-react-js/static/js/main.010ddde6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd3e5da0.css",
+    "static/js/main.010ddde6.js"
+  ]
+}
