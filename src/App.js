@@ -1,17 +1,40 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Shop from "./components/Shop";
+import "./App.css";
+import Cart from "./components/Cart";
 
 function App() {
   const [cart, setCart] = useState([]);
-  const handleClick=(item)=> {
-    console.log(item);
-  }
+  const [warning, setWarning] = useState(false);
+  //ternary operator
+  const [show, setShow] = useState(true);
+
+  const handleClick = (item) => {
+    let isPresent = false;
+    cart.forEach((product) => {
+      if (item.id === product.id) isPresent = true;
+    });
+
+    if (isPresent) {
+      setWarning(true);
+      setTimeout(() => {
+        setWarning(false);
+      }, 2000);
+      return;
+    }
+    setCart([...cart, item]);
+  };
 
   return (
     <div>
       <Navbar size={cart.length} />
-      <Shop handleClick={handleClick} />
+      {show ? (
+        <Shop handleClick={handleClick} />
+      ) : (
+        <Cart cart={cart} setCart={setCart} />
+      )}
+      {warning && <div className="warning">Item is already in the cart</div>}
     </div>
   );
 }

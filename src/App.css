@@ -1,0 +1,140 @@
+/* General body and container styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navbar styling */
+.nav_box {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.my_shop {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart span:nth-child(1) {
+  font-size: 1.5rem;
+  color: #555;
+  margin-right: 0.5rem;
+}
+
+.cart span:nth-child(2) {
+  background-color: #ff4d4d;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.8rem;
+}
+
+/* Shop and card styling */
+.shop_section {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.cards {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards:hover {
+  transform: translateY(-5px);
+}
+
+.cards img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.cards h2 {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.cards p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.price {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.cards button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: auto; /* Pushes the button to the bottom */
+}
+
+.cards button:hover {
+  background-color: #0056b3;
+}
+
+/* Warning message styling */
+.warning {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: #ffcc00;
+  color: #333;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  animation: fadeinout 2s forwards;
+}
+
+/* Fade animation for the warning message */
+@keyframes fadeinout {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
