@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div>
-      <Navbar size={cart.length} />
+      <Navbar size={cart.length} setShow={setShow} />
       {show ? (
         <Shop handleClick={handleClick} />
       ) : (
