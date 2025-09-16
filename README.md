@@ -9,7 +9,7 @@
 
 **A modern, responsive shopping cart application built with React.js**
 
-[🌐 Live Demo](https://itsluckysharma01.github.io/Shopping_Cart-react-js) | [📖 Documentation](#documentation) | [🚀 Quick Start](#quick-start)
+[🌐 Live Demo](https://itsluckysharma01.github.io/Shopping_Cart-react-js/) | [📖 Documentation](#documentation) | [🚀 Quick Start](#quick-start)
 
 ![Shopping Cart Demo](https://via.placeholder.com/800x400/4CAF50/white?text=Shopping+Cart+Demo)
 
