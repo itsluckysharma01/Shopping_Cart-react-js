@@ -328,7 +328,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Lucky Sharma**
 
 - GitHub: [@itsluckysharma01](https://github.com/itsluckysharma01)
-- LinkedIn: [Connect with me](https://linkedin.com/in/yourusername)
+- LinkedIn: [Connect with me](www.linkedin.com/in/lucky-sharma918894599977)
 
 ---
 
@@ -347,7 +347,7 @@ If you have any questions or need help:
 
 - 🐛 **Issues**: [Open an issue](https://github.com/itsluckysharma01/Shopping_Cart-react-js/issues)
 - 💬 **Discussions**: [Join the discussion](https://github.com/itsluckysharma01/Shopping_Cart-react-js/discussions)
-- 📧 **Email**: [Contact me](mailto:your.email@example.com)
+- 📧 **Email**: [Contact me](itsluckysharma001@gmail.com)
 
 ---
 
